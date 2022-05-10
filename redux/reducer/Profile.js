@@ -7,6 +7,7 @@ const profileReducer=(state={profile:null,error:null,isLoading: false},action)=>
         case "CREATE_PROFILE":
             return {...state,profile: action?.data}
         case "FETCH_PROFILE_BY_ID":
+            
             localStorage.setItem("profile",JSON.stringify(action?.data))
             return {...state,profile: action.data}
         case "FETCH_PROFILE_BY_USERNAME":

@@ -5,6 +5,7 @@ const authReducer=(state={allUser:null,isLoading:false},action)=>{
         case "END_LOADING":
             return {...state,isLoading: false}
         case "AUTH":
+            document.cookie=`user=${JSON.stringify(action.data?.existingUser)}`
             localStorage.setItem('UserAuth',JSON.stringify({...action?.data}))
             return {...state,authData: action?.data}
         case "LOGOUT":{

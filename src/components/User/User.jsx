@@ -24,7 +24,7 @@ import { IoIosDocument } from 'react-icons/io'
 import { FcLike, FcLikePlaceholder, FcLock } from 'react-icons/fc'
 
 
-
+import Cookies from 'js-cookie'
 
 // icons 
 import Edit from "./subcomponents/Edit"
@@ -47,7 +47,7 @@ import SearchBar from "../Footer/SearchBar"
 import Social from "./subcomponents/social"
 
 
-const User = ({ edit }) => {
+const User = ({ edit,existing }) => {
   const [width, setWidth] = useState(1000)
   const state = useSelector((state) => state)
   const [bannerHeight, setBannerHeight] = useState(0)
@@ -56,7 +56,7 @@ const User = ({ edit }) => {
   const dispatch = useDispatch()
   const { profile, error, isLoading, profcookie } = state.profileReducer
   const router = useRouter()
-  const profileData = profile !== null ? profile?.data : []
+  const profileData = existing !== null ? existing : profile.data
   // edititable content
   const [openEdit, setOpenEdit] = useState(false)
   const [editData, setEditData] = useState({ title: "", name: "", data: null })
@@ -139,8 +139,10 @@ const User = ({ edit }) => {
     if (!edit) {
 
       if (data !== null && cookie) {
+        console.log("sjdj")
         dispatch(getProfileByUserName(query?.id, { userId: data?.existingUser._id }, true, cookie))
       } else if (cookie) {
+        console.log("rund")
         dispatch(getProfileByUserName(query?.id, { userId: data?.existingUser._id }, false, cookie))
       }
     }
@@ -446,6 +448,7 @@ const User = ({ edit }) => {
 
   useEffect(() => {
 
+    Cookies.set("profile",profileData)
   }, [socialHandle])
 
 
