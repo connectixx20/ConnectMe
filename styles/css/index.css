@@ -633,9 +633,7 @@ A {
   justify-content: space-between;
   overflow: hidden;
   border-radius: 10px;
-  background: #56d5c7;
-  background: #94e594;
-  color: black;
+  background: #c6c6c6;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
   padding: 1rem;
 }
@@ -672,13 +670,12 @@ A {
   text-align: start;
   margin-top: 0.5rem;
   border-radius: 10px;
-  background: #56d5c7;
+  background: #c6c6c6;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
   padding: 1rem;
   font-family: "Lora", serif;
   font-family: "Playfair Display", serif;
-  background: #94e594;
-  color: black;
+  color: rgb(97, 97, 97);
 }
 .connectme__user-about p span {
   margin-left: 0.5rem;
@@ -755,64 +752,64 @@ A {
   color: white;
 }
 .connectme__user-interests__info .bodies:nth-child(0) {
-  background: rgb(174, 204, 66);
+  background: rgb(167, 58, 73);
 }
 .connectme__user-interests__info .bodies:nth-child(1) {
-  background: rgb(60, 193, 72);
+  background: rgb(135, 127, 90);
 }
 .connectme__user-interests__info .bodies:nth-child(2) {
-  background: rgb(52, 118, 97);
+  background: rgb(26, 134, 178);
 }
 .connectme__user-interests__info .bodies:nth-child(3) {
-  background: rgb(7, 173, 123);
+  background: rgb(187, 172, 93);
 }
 .connectme__user-interests__info .bodies:nth-child(4) {
-  background: rgb(220, 195, 41);
+  background: rgb(115, 234, 49);
 }
 .connectme__user-interests__info .bodies:nth-child(5) {
-  background: rgb(2, 98, 186);
+  background: rgb(39, 28, 203);
 }
 .connectme__user-interests__info .bodies:nth-child(6) {
-  background: rgb(71, 159, 160);
+  background: rgb(208, 80, 41);
 }
 .connectme__user-interests__info .bodies:nth-child(7) {
-  background: rgb(156, 141, 2);
+  background: rgb(243, 6, 59);
 }
 .connectme__user-interests__info .bodies:nth-child(8) {
-  background: rgb(14, 93, 191);
+  background: rgb(175, 251, 211);
 }
 .connectme__user-interests__info .bodies:nth-child(9) {
-  background: rgb(167, 226, 171);
+  background: rgb(51, 190, 32);
 }
 .connectme__user-interests__info .bodies:nth-child(10) {
-  background: rgb(46, 9, 235);
+  background: rgb(214, 173, 13);
 }
 .connectme__user-interests__info .bodies:nth-child(11) {
-  background: rgb(76, 9, 149);
+  background: rgb(95, 35, 245);
 }
 .connectme__user-interests__info .bodies:nth-child(12) {
-  background: rgb(204, 171, 205);
+  background: rgb(209, 131, 18);
 }
 .connectme__user-interests__info .bodies:nth-child(13) {
-  background: rgb(196, 234, 173);
+  background: rgb(128, 71, 137);
 }
 .connectme__user-interests__info .bodies:nth-child(14) {
-  background: rgb(171, 156, 150);
+  background: rgb(152, 225, 120);
 }
 .connectme__user-interests__info .bodies:nth-child(15) {
-  background: rgb(111, 137, 148);
+  background: rgb(27, 174, 54);
 }
 .connectme__user-interests__info .bodies:nth-child(16) {
-  background: rgb(21, 138, 55);
+  background: rgb(94, 19, 144);
 }
 .connectme__user-interests__info .bodies:nth-child(17) {
-  background: rgb(228, 73, 181);
+  background: rgb(84, 48, 105);
 }
 .connectme__user-interests__info .bodies:nth-child(18) {
-  background: rgb(95, 206, 183);
+  background: rgb(199, 252, 226);
 }
 .connectme__user-interests__info .bodies:nth-child(19) {
-  background: rgb(239, 45, 140);
+  background: rgb(38, 162, 118);
 }
 .connectme__user-social__title {
   display: flex;
@@ -845,11 +842,9 @@ A {
   justify-content: space-between;
   padding: 2rem;
   border-radius: 10px;
-  background: #56d5c7;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
   margin-top: 2rem;
-  background: #94e594;
-  color: black;
+  background: #c6c6c6;
 }
 .connectme__user-social__content .item {
   display: flex;
@@ -903,11 +898,9 @@ A {
 }
 .connectme__user-testimonial__content {
   margin-top: 2rem;
-  padding: 1rem;
+  padding: 6px;
   border-radius: 20px;
-  background: #56d5c7;
-  background: #94e594;
-  color: black;
+  background: black;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
 }
 .connectme__user-testimonial__content .background {
@@ -973,9 +966,7 @@ A {
 }
 .connectme__user-connects__content {
   border-radius: 10px;
-  background: #56d5c7;
-  background: #94e594;
-  color: black;
+  background: #c6c6c6;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
   padding: 1rem;
   overflow: hidden;
@@ -1125,11 +1116,9 @@ A {
 .connectme__user-services__content {
   margin-top: 3rem;
   border-radius: 10px;
-  background: #56d5c7;
-  background: #94e594;
-  color: black;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
-  padding: 1rem;
+  padding: 6px;
+  background: black;
 }
 .connectme__user-services__content .background {
   position: absolute;
@@ -1328,22 +1317,11 @@ A {
   z-index: 1;
 }
 .connectme__user .border .hr:after {
-  transition: opacity 0.3s ease, -webkit-animation 0.3s ease;
   transition: opacity 0.3s ease, animation 0.3s ease;
-  transition: opacity 0.3s ease, animation 0.3s ease, -webkit-animation 0.3s ease;
   background: linear-gradient(to right, #62efab 5%, #f2ea7d 15%, #f2ea7d 25%, #ff8797 35%, #ff8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
   background-size: 200%;
   background-position: 0%;
-  -webkit-animation: bar 5s linear infinite;
-          animation: bar 5s linear infinite;
-}
-@-webkit-keyframes bar {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 200%;
-  }
+  animation: bar 5s linear infinite;
 }
 @keyframes bar {
   0% {
@@ -1358,16 +1336,13 @@ A {
   background-size: 150px;
   background-position: center;
   z-index: 1;
-  -webkit-animation: bar 120s linear infinite;
-          animation: bar 120s linear infinite;
+  animation: bar 120s linear infinite;
 }
 .connectme__user .border .hr.anim:hover:before {
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  animation-duration: 20s;
 }
 .connectme__user .border .hr.anim:hover:after {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 @media screen and (max-width: 1000px) {
   .connectme__user .lower__sec {
@@ -1765,12 +1740,10 @@ A {
   margin-bottom: 1rem;
 }
 .connectme__user-audition__content {
-  padding: 1rem;
   position: relative;
   border-radius: 10px;
-  background: #56d5c7;
-  background: #94e594;
-  color: black;
+  padding: 6px;
+  background: black;
   box-shadow: 6px 6px 12px #e0dee0, -6px -6px 12px #dcdcdc;
 }
 .connectme__user-audition__content .background {
@@ -2318,14 +2291,11 @@ A {
   z-index: 1;
 }
 .connectme__gallery .border .hr:after {
-  transition: opacity 0.3s ease, -webkit-animation 0.3s ease;
   transition: opacity 0.3s ease, animation 0.3s ease;
-  transition: opacity 0.3s ease, animation 0.3s ease, -webkit-animation 0.3s ease;
   background: linear-gradient(to right, #62efab 5%, #f2ea7d 15%, #f2ea7d 25%, #ff8797 35%, #ff8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
   background-size: 200%;
   background-position: 0%;
-  -webkit-animation: bar 5s linear infinite;
-          animation: bar 5s linear infinite;
+  animation: bar 5s linear infinite;
 }
 @keyframes bar {
   0% {
@@ -2340,16 +2310,13 @@ A {
   background-size: 150px;
   background-position: center;
   z-index: 1;
-  -webkit-animation: bar 120s linear infinite;
-          animation: bar 120s linear infinite;
+  animation: bar 120s linear infinite;
 }
 .connectme__gallery .border .hr.anim:hover:before {
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  animation-duration: 20s;
 }
 .connectme__gallery .border .hr.anim:hover:after {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 .connectme__gallery-content {
   padding: 1rem;
@@ -2449,7 +2416,6 @@ A {
 }
 
 .center__footer {
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: 23;
@@ -2618,9 +2584,6 @@ A {
   width: 100%;
 }
 .connectme__search input::-moz-placeholder {
-  color: #6d7f8f;
-}
-.connectme__search input:-ms-input-placeholder {
   color: #6d7f8f;
 }
 .connectme__search input::placeholder {
